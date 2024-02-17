@@ -1,0 +1,25 @@
+const { weise } = require('../../Global/Clients/Guard.Clients');
+const { Mongoose } = require('../../Global/Databases/Global.MongoDB.Driver');
+const client = global.client = new weise();
+const { GUILD } = require('../../Global/Init/Settings');
+const { Collection } = require('discord.js');
+
+// Client Ayarları (Başlangıç)
+client.botName = "Guard_II"
+// Client Ayarları (SON)
+
+client.on("ready", async () => { 
+                    let guild = client.guilds.cache.get(global.sistem.SERVER.ID);
+                    if(!guild) {
+                        console.log(`https://discord.com/api/oauth2/authorize?client_id=${this.user.id}&permissions=0&scope=bot%20applications.commands`)
+                        return process.exit();
+                    }
+                     let kanal = this.channels.cache.get("1202719496327008346")
+                        if(kanal) joinVoiceChannel({ channelId: kanal.id, guildId: kanal.guild.id, adapterCreator: kanal.guild.voiceAdapterCreator});
+                })
+
+Mongoose.Connect()
+GUILD.fetch(sistem.SERVER.ID)
+client.fetchCommands(false)
+client.fetchEvents()
+client.connect(sistem.TOKENS.SECURITY.SEC_TWO)

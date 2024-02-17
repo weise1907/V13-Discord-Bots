@@ -1,0 +1,77 @@
+{
+  "SERVER": {
+    "ID": "ServerID", 
+    "Name": "SunucuAdı",  
+    "Install": true
+  },
+  "PACKAGE": {
+    "Type": "FULL",
+    "Name": "Ruby VIP+",
+    "Desc": "Bu paket tüm özellikleri ve tüm sistemleri kapsamaktadır.",
+    "Status": true,
+    "Price": 1000,
+    "StartAt": 1664856195288,
+    "LastPayment": 1666581165742,
+    "Payments": [
+      {
+        "Id": 1,
+        "Price": 1000,
+        "Type": "FULL",
+        "Date": 1664856195288,
+        "Payment": "BAŞLANGIÇ"
+      }
+    ]
+  },
+  "TOKENS": {
+    "Statistics": "StatisticsToken",
+    "Voucher":"VoucherToken",
+    "SYNC": "SyncToken",
+    "CONTROLLER": "ControllerToken",
+    "SECURITY": {
+      "MAIN": "GuardMainToken",
+      "SEC_ONE": "GuardToken1",
+      "SEC_TWO": "GuardToken2",
+      "DISTS": [
+        "DiğerBotToken1",
+        "DiğerBotToken2",
+        "DiğerBotToken3"
+      ]
+    },
+    "WELCOME": {
+      "Active": false,
+      "WELCOMES": [
+        "WelcomeToken1",
+        "WelcomeToken2",
+        "WelcomeToken3",
+        "WelcomeToken4",
+        "WelcomeToken5"
+      ],
+      "WELCOME_CHANNELS": [
+        "WelcomeSes1",
+        "WelcomeSes2",
+        "WelcomeSes3",
+        "WelcomeSes4",
+        "WelcomeSes5"
+      ]
+    }
+  },
+  "botSettings": {
+    "Prefixs": [
+      ".",
+      "!"
+    ]
+  },
+  "Webclient": {
+    "clientID": "WebClientID",
+    "secret": "WebSecret",
+    "callbackURL": "CallbackURL"
+  },
+  "botStatus": {
+    "Status": "dnd",
+    "Name": "BotDurum"
+  },
+  "Database": {
+    "Active": true,
+    "MongoURL": "MongoDBlink"
+  }
+}
