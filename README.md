@@ -1,9 +1,9 @@
 # V13-Discord-Bots
 
 
-**Voucher klasörüne girin `_owner.js` kısmında id yeri var oraya kendi idnizi girin.**
+**`Voucher` klasörüne girin `_owner.js` kısmında id yeri var oraya kendi idnizi girin.**
 
-**Distiributos klasörüne girin `pm2.controller.js` kısmında id yeri var oraya idnizi girin. (Aynı klasörde eval kısmına idnizi girin.)**
+**`Distiributos` klasörüne girin `pm2.controller.js` kısmında id yeri var oraya idnizi girin. (Aynı klasörde eval kısmına idnizi girin.)**
 
 **`Global` klasörüne girin `Schemas` klasörünü açın `Global.Guild.Settings` kısmında yetkili id kısmına bot command rolünü girin.**
 
