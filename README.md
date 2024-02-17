@@ -20,3 +20,7 @@
 **`"botStatus"` kısmında botun `"name"` yazan yerde botun durumunu yazın.**
 
 **`"database"` yazan kısımda `"MongoURL"` yerine Mongo URL'nizi girin.**
+
+**Gereken kısımları doldurduktan sonra .setup ile botu kurun.**
+
+**Starlamayı Unutmayın.**
